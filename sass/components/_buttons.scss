@@ -25,16 +25,16 @@ button {
     }
 }
 
-.portfolio-button__list {
+.portfolio-button {
     display: flex;
     margin-top: 0;
     margin-bottom: 50px;
-    justify-content: center;
+    justify-content: center; 
+}
 
-    & .button-portfolio--current {
-        color: var(--rpimary-color);
-        background-color: var(--accent-color);
-    }
+.portfolio-button .button-portfolio--current {
+    color: var(--rpimary-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-button__item {
@@ -42,7 +42,6 @@ button {
         margin-right: 8px;
     }
 }
-
 
 
 .button-portfolio {
